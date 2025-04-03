@@ -1,0 +1,50 @@
+#so
+# conjunto de programas responsavel para comunicação com nosso hardwarw
+# so sua importancia
+ gerenciar recursos do sistema, fornecer uma interface para interação com o hardware, executar programas de aplicativos e garantir a segurança e a integridade dos dados.
+
+#2 como seria a atv de escrever um programa de computador sem poder contar com um SO?
+Agente seria responsavel por gerenciar os proprio  driver, para fazer se comunicar com nosso hardware 
+
+#3 como SO se relaciona com a arquitetura de computadores? 
+é feito atraves de escalonamentos/apontamentos 
+
+#4 explique o que representa um processo e qual seu papel de SO
+o processo é um programa em execução criado pelo prorio usuario ou pelo sistema operacional, o papel dele é representar o programas frente ao sistema operacional quando ele é iniciado.
+
+
+#5 o que é multiprogramação? Qual o impacto para o SO? Explique o conceito e exemplifique
+multiplosporgramas sendo executados ao mesmo tempo, o impacto é que o SO precisa gerenciar os recursos do sistema de forma 
+eficiente para garantir que cada programa tenha acesso ao hardware e à memória conforme necessário.
+
+
+#6 o que é compartilhamento de recursos no contexto do SO? qual a importancia da concoorrencia para o SO?
+Compartilhamento de recursos refere-se à capacidade de vários programas acessarem e utilizarem os recursos do sistema, como CPU, memória e dispositivos de E/S, ao mesmo tempo.
+A concorrência é importante para o SO porque permite que vários programas sejam executados simultaneamente rodando juntos ou sendo concorrentes um do outro,
+podendo trazer melhor eficiência e o desempenho do sistema.
+
+#7 qual a missao de um excalanador de processos?Qual a importancia de um escalonador de processos para o SO?
+A missão de um escalonador de processos é gerenciar a execução de processos no sistema operacional,
+decidindo qual processo deve ser executado em seguida e por quanto tempo.
+A importância de um escalonador de processos para o SO é garantir que os recursos do sistema sejam utilizados de forma eficiente e justa,
+maximizando o desempenho e a capacidade de resposta do sistema.
+
+#8 explique 4 algoritimos de escalonamento de processos e codifique 1 metodo para cada tecnica
+# First-Come, First-Served (FCFS): O algoritmo FCFS executa os processos na ordem em que foram recebidos.
+# Shortest Job Next (SJN): O algoritmo SJN seleciona o processo com o menor tempo de execução restante para ser executado em seguida.
+# Round Robin (RR): O algoritmo RR permite que cada processo seja executado por um pequeno intervalo de tempo antes de passar para o próximo processo.
+# Priority Scheduling: O algoritmo de escalonamento por prioridade atribui uma prioridade a cada processo e executa o processo com a maior prioridade em primeiro lugar.
+
+
+#9 porque um SO depende dos estados do processo? Quais os beneficios de organizar o ciclo de vida dos processos em estados?
+O SO depende dos estados do processo para gerenciar a execução dos processos no sistema, decidindo quando um processo deve ser executado, suspenso ou encerrado.
+Os benefícios de organizar o ciclo de vida dos processos em estados incluem melhor controle e gerenciamento dos processos, melhor eficiência e desempenho do sistema,
+e a capacidade de garantir que os processos sejam executados de forma justa e eficiente.
+
+#10 explique a relação existente entre ciclo de vida de processos, escalonamento de processos processos e compartilhamento de recursos
+objetivo: multiprogramação, compartilhamento de recursos para escalonamento dos meu processos  e ciclo de vida dos processos para
+garantir que cada processo seja executado de forma eficiente e justa.
+
+#11 explique a diferença de modelo de multiprocessos e ommodelo de multithread
+O modelo de multiprocessos envolve a execução de vários processos independentes, cada um com seu próprio espaço de endereço e recursos,
+enquanto o modelo de multithread envolve a execução de várias threads dentro de um processo, compartilhando o mesmo espaço de endereço e recursos.
